@@ -2,7 +2,7 @@ name: Twitter Bot Auto Post - Fuju
 
 on:
   schedule:
-    - cron: "20 */1 * * *"  # Jalan tiap 1 jam
+    - cron: "0 */2 * * *"  # Jalan tiap 3 jam
   workflow_dispatch:        # Bisa juga dijalankan manual
 
 jobs:
