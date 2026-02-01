@@ -13,16 +13,13 @@ const client = new TwitterApi({
   try {
     // 📝 Isi tweet kamu di sini (nanti aku bantu isi sesuai request kamu)
     const textTweet = `
-Diskon JATINANGOR ShopeeFood! 🍽️✨
+SeIndonesia dapet 2 nih!! Bisa semua cabang SHOPEEFOOD DISKON jadi 8rb aja gess!! 
 
-Paket ayam spicy large cuma 8K AJAA!
-💯🔥
+Klaim & pakai voucher sekarang 👇
+spf.shopee.co.id/5VPWWFoFKH
+spf.shopee.co.id/5VPWWFoFKH
 
-Klaim voucher nya dulu di sini cepetan ⬇️
-https://spf.shopee.co.id/60JtkXL1wC
-https://spf.shopee.co.id/60JtkXL1wC
-
-t. gofood grabfood kode promo go grab shopee food sfood ayam chicken house thr daget gojek gratis ongkir
+daget go grab shopee food gofood grabfood shopeefood kode promo gojek maxim
 `;
 
     // 📸 Upload 1 gambar dari repo
@@ -39,5 +36,6 @@ t. gofood grabfood kode promo go grab shopee food sfood ayam chicken house thr d
     console.error('❌ Gagal kirim tweet:', error);
   }
 })();
+
 
 
